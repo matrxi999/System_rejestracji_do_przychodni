@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1109</width>
+    <height>642</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pbUmowWizyte">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>517</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Umów wizyte</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbStart">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>27</y>
+      <width>93</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>30</y>
+      <width>711</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="laListaLekarzy">
+       <property name="text">
+        <string>Lista lekarzy:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPlainTextEdit" name="pteListaLekarzy"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>430</y>
+      <width>271</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="laWyborGodziny">
+       <property name="text">
+        <string>Wybór godziny:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLineEdit" name="leWyborGodziny"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="laFormatGodziny">
+         <property name="text">
+          <string>x:00 ; x:15 ; x:30 ; x:45</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>144</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_7">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <widget class="QLabel" name="laWyborSpecjalizacji">
+         <property name="text">
+          <string>Wybór specjalizacji:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="cbWyborSpecjalizacji">
+         <item>
+          <property name="text">
+           <string>Wszyscy</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Ortopeda</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Chirurg</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Dermatolog</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Okulista</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Stomatolog</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Endokrynolog</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Urolog</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Ginekolog</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Pediatra</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Internista</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QLabel" name="laWyborMiesiaca">
+         <property name="text">
+          <string>Wybór miesiąca:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="cbWyborMiesiaca">
+         <item>
+          <property name="text">
+           <string>Wszystkie</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Styczen</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Luty</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Marzec</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Kwiecien</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Maj</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Czerwiec</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Liepiec</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Sierpien</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Wrzesien</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Pazdziernik</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Listopad</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Grudzien</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QLabel" name="laWyborDnia">
+         <property name="text">
+          <string>Wybór dnia:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="sbWyborDnia"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="laNumerLekarza">
+         <property name="text">
+          <string>Numer lekarza:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="sbNumerLekarza"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1109</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
